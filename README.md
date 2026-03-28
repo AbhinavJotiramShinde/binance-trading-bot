@@ -74,13 +74,13 @@ BINANCE_BASE_URL=https://testnet.binancefuture.com
 ### MARKET order example
 
 ```bash
-python cli.py --symbol BTCUSDT --side BUY --order-type MARKET --quantity 0.001
+python cli.py --symbol BTCUSDT --side BUY --order-type MARKET --quantity 1
 ```
 
 ### LIMIT order example
 
 ```bash
-python cli.py --symbol BTCUSDT --side SELL --order-type LIMIT --quantity 0.001 --price 120000
+python cli.py --symbol BTCUSDT --side SELL --order-type LIMIT --quantity 1 --price 70000
 ```
 
 ## Example Output
